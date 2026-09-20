@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "name": "research-scout",
+  "display_name": "Research Scout",
+  "version": "1.1.0",
+  "description": "Evidence-only research collection with topic-based persistent memory (git-backed) and modular provider wrappers.",
+  "entrypoint": "SKILL.md",
+  "documentation": "README.md",
+  "manual": "MANUAL.md",
+  "maintenance": "SKILL-MAINTENANCE.md",
+  "changelog": "CHANGELOG.md",
+  "storage_backend": "git",
+  "memory_directory": "memory",
+  "tools_directory": "tools",
+  "capabilities": [
+    "evidence_collection",
+    "citation_capture",
+    "persistent_topic_memory",
+    "deduplication",
+    "provider_wrappers",
+    "ci_evidence_lint",
+    "self_improvement_log"
+  ],
+  "restrictions": [
+    "no_analysis",
+    "no_recommendations",
+    "no_synthesis",
+    "no_fabricated_sources",
+    "no_direct_push_to_protected_branch",
+    "no_self_modification_without_pr_review"
+  ],
+  "license": "MIT"
+}

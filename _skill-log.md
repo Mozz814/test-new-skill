@@ -1,0 +1,1 @@
+- 2026-09-20: (log starts empty — see SKILL.md 'Error handling' for what belongs here)
